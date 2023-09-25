@@ -299,6 +299,11 @@ li{
     margin-bottom: 2em;
 }
 
+.contactItem{
+    display: flex ;
+}
+
+
 .contatti h2{
     font-size: large;
     margin-bottom: 2em;
@@ -307,4 +312,31 @@ li{
 .contatti p{
     font-size: medium;
     font-style: italic;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.mail{
+    background-image: url('immagini/mail.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.phone{
+    background-image: url('immagini/telefono.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.home{
+    background-image: url('immagini/casa.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.github{
+    background-image: url('immagini/github.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
 }
